@@ -1,20 +1,21 @@
 // Navigation.js
 import React from 'react';
+import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 const Navigation = () => {
 return (
-<div>  
-    <div class="sidebar">
-        <nav>
-            <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About Me</Link></li>
-            <li><Link to="/skill">My Skills</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-            <li><Link to="/submission">submissionSystem</Link></li>
-            </ul>
-        </nav>
-    </div>
+<div id="Sidebar">
+    
+    <Navbar>
+        <Container>
+            <Nav.Link href="/" id="lCol">Home</Nav.Link><br></br>
+            <Nav.Link href="/about" id="lCol">About Me</Nav.Link><br></br>
+            <Nav.Link href="/skill" id="lCol">My Skills</Nav.Link><br></br>
+            <Nav.Link href="/contact" id="lCol">Contact</Nav.Link><br></br>
+            <Nav.Link href="/submission" id="lCol">SubmissionSystem</Nav.Link><br></br>
+        </Container>
+    </Navbar>
+    
 </div>
 );
 }

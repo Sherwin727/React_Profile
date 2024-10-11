@@ -5,7 +5,8 @@ import About from './About';
 import Contact from './Contact';
 import Skill from './Skill';
 import Navigation from './Navigation';
-import Submission from './SubmissionContent'
+import Submission from './SubmissionContent';
+import './App.css';
 
 const App = () => {
 return (
