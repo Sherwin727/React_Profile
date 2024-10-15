@@ -8,9 +8,12 @@ import Navigation from './Navigation';
 import Submission from './SubmissionContent';
 import './App.css';
 
+
 const App = () => {
 return (
+
 <BrowserRouter>
+<style>{'body { background-color: rgb(216, 216, 216); }'}</style>
 <div>
 <Navigation/>
 <Routes>

@@ -1,21 +1,19 @@
 // Navigation.js
 import React from 'react';
-import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import {Container, Nav, Navbar} from 'react-bootstrap';
 const Navigation = () => {
 return (
-<div id="Sidebar">
-    
+<div id="Dashboard">
     <Navbar>
         <Container>
-            <Nav.Link href="/" id="lCol">Home</Nav.Link><br></br>
-            <Nav.Link href="/about" id="lCol">About Me</Nav.Link><br></br>
-            <Nav.Link href="/skill" id="lCol">My Skills</Nav.Link><br></br>
-            <Nav.Link href="/contact" id="lCol">Contact</Nav.Link><br></br>
-            <Nav.Link href="/submission" id="lCol">SubmissionSystem</Nav.Link><br></br>
+            <strong>
+            <Nav.Link href="/" id="lCol">Home      &nbsp;</Nav.Link>
+            <Nav.Link href="/about" id="lCol">About Me     &nbsp;</Nav.Link>
+            <Nav.Link href="/skill" id="lCol">My Skills    &nbsp;</Nav.Link>
+            <Nav.Link href="/contact" id="lCol">Contact Me     &nbsp;</Nav.Link>
+            </strong>
         </Container>
     </Navbar>
-    
 </div>
 );
 }
